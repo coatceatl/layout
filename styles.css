@@ -21,7 +21,6 @@ html, body {
 }
 .nav-social {
   width: 153px;
-  height: 122px;
 }
 .nav-social-lists {
   margin: 0;
@@ -32,4 +31,9 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
 }
+.logo {
+  width: 153px;
+  padding-top: 17px;
+}
+
 

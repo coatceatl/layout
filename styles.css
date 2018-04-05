@@ -35,5 +35,23 @@ html, body {
   width: 153px;
   padding-top: 17px;
 }
+.nav-contact {
+  color: #fffffe;
+  padding-top: 53px;
+  width: 170px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.nav-contact .number {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 9px;
+}
+.nav-contact p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
 
 

@@ -54,19 +54,27 @@ html, body {
   color: rgb(255,255,254);
   padding-top: 51px;
   width: 170px;
-  font-family: 'Roboto-Bold', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.nav-contact .d-inline-flex {
+  justify-content: flex-end;
 }
 .nav-contact .number {
   font-size: 16px;
   margin: 0;
   padding-bottom: 9px;
+  width: 170px;
+  line-height: 1.2;
+  white-space: pre;
 }
 .nav-contact p {
   font-size: 11px;
   line-height: 1.2;
   margin: 0;
+  width: 170px;
 }
 .nav-menu-lists {
   padding: 0;
@@ -97,20 +105,28 @@ html, body {
 .heading-1 {
   color: rgb(255, 255, 254);
   font-size: 73px;
-  font-weight: bold;
-  width: 430px;
+  width: 530px;
   font-family: 'Bebas Neue';
+  letter-spacing: 3px;
+  line-height: 1;
+  padding-left: 68px;
 }
 .subtitle {
   color: rgb(255, 255, 254);
-  justify-content: center;
+  justify-content: start;
+  padding-left: 170px;
   font-family: 'Roboto', sans-serif;
-  font-size: 11px;
+  font-size: 32px;
+}
+.heading-3 {
+  font-size: 22px;
+  line-height: 3;
 }
 .header-content p {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   color: rgb(255,255,254);
+  line-height: 1.2;
 }
 
 /*Clients*/

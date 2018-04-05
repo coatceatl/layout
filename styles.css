@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   background: #0e0d1b;
 }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 .container-wrap {
   max-width: 1366px;
   margin-left: auto;

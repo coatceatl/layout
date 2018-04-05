@@ -37,23 +37,27 @@ html, body {
 }
 .logo {
   width: 153px;
+  display: flex;
+  justify-content: center;
   padding-top: 17px;
   padding-bottom: 32px;
 }
 .nav-contact {
   color: rgb(255,255,254);
-  padding-top: 53px;
+  padding-top: 51px;
   width: 170px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .nav-contact .number {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   padding-bottom: 9px;
 }
 .nav-contact p {
-  font-size: 16px;
+  font-size: 11px;
+  line-height: 1.2;
   margin: 0;
 }
 .nav-menu-lists {
@@ -74,6 +78,7 @@ html, body {
 }
 .nav-menu-list a {
   color: rgb(255,255,254);
+  text-decoration: none;
 }
 
 

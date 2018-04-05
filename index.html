@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no'>
-    <link rel='stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet'>
     <link rel='stylesheet' href='styles.css' type='text/css'>
     <title>Armada</title>
@@ -11,9 +11,9 @@
   <body>
     <div class='container-wrap'>
       <div class='container'>
-        <div class='row nav-menu'>
-
-          <div class='nav-social'>
+        <div class='d-flex flex-row nav-menu'>
+          <!--  <div class='row nav-menu'>-->
+          <div class='d-inline-flex col-xs-2 nav-social'>
             <ul class='nav-social-lists'>
               <li><a href='#'><img src='img/logo/icon-instagram.png' alt='Instagram'></a></li>
               <li><a href='#'><img src='img/logo/icon-vk.png' alt='vkontakte'></a></li>
@@ -22,19 +22,19 @@
             </ul>
           </div>
 
-          <div class='logo'>
+          <div class='d-inline-flex col-xs-8 logo'>
             <a href='#'>
               <img src='img/logo/logo-armada.png' alt='Armada'>
             </a>
           </div>
 
-          <div class='nav-contact'>
+          <div class='d-inline-flex col-xs-2 nav-contact'>
             <p class='number'><span>8</span> <span>800</span> <span>345</span> <span>98</span> <span>98</span></p>
             <p>Заказать звонок</p>
           </div>
         </div>
 
-        <div class='row nav-menu1'>
+        <div class='d-flex flex-row nav-menu'>
           <ul class='nav-menu-lists'>
             <li class='nav-menu-list'><a href='#'>Главная</a></li>
             <li class='nav-menu-list'><a href='#'>Услуги</a></li>
@@ -44,15 +44,18 @@
             <li class='nav-menu-list'><a href='#'>Подготовка</a></li>
             <li class='nav-menu-list'><a href='#'>Партнёры</a></li>
             <li class='nav-menu-list'><a href='#'>Контакты</a></li>
-           /ul>
+           </ul>
         </div>
-
-        <div class='header'>
-          <div class='header-content'>
+        <div class='d-flex flex-row header'>
+          <div class='d-flex flex-row subtitle'>
             <h2>Заказать телохранителя в Москве</h2>
-            <h1>Предоставим личную охрану в течение 1 часа</h1>
+          </div>
+          <div class='d-flex flex-row header-title'>
+            <h1 class='heading-1'>Предоставим личную охрану в течение 1 часа</h1>
+          </div>
           </div>
         </div>
+
 
       </div>
     </div>

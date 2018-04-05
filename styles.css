@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.container-wrap {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(img/bg/header-bg.jpg);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 127px;
+}
+.container {
+  max-width: 986px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 768px;
+}
+.nav-social {
+  width: 153px;
+  height: 122px;
+}
+.nav-social-lists {
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

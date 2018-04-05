@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('/fonts/bebas/BebasNeue.otf');
+    font-weight: 300;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -77,9 +82,26 @@ html, body {
 /*Header*/
 .header {
   height: 528px;
+  text-transform: uppercase;
+}
+.header-title: {
+  width: 265px;
 }
 .heading-1 {
   color: rgb(255, 255, 254);
   font-size: 73px;
   font-weight: bold;
+  width: 270px;
+  font-family: 'BebasNeue';
+}
+.subtitle {
+  color: rgb(255, 255, 254);
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+}
+.header-content p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255,255,254);
 }

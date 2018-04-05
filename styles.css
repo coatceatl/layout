@@ -18,6 +18,12 @@ html, body {
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+.container,
+.col,
+.row {
+  margin: 0;
+  padding: 0;
+}
 .container-wrap {
   max-width: 1366px;
   margin-left: auto;
@@ -149,31 +155,53 @@ html, body {
   max-width: 986px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  padding: 0;
   height: 768px;
 }
+.clients-title {
+  padding-top: 85px;
+  padding-bottom: 112px;
+}
 .heading-2 {
-  font-size: 43px;
+  font-size: 44px;
   font-family: 'Bebas Neue';
   color: rgb(255, 255, 254);
   text-transform: uppercase;
   line-height: 0.75;
   padding-left: 68px;
+  margin-bottom: 0;
   letter-spacing: 5.5px;
 }
 .clients-menu {
-  justify-content: flex-end;
+  color: rgb(255, 255, 254);
+  font-size: 24px;
+  font-family: 'Roboto';
 }
+
+h3 .clients .heading-3 {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 254);
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 80px;
+}
+
 .client-menu-lists {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+.client-menu-lists a {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 254);
+  line-height: 3.4;
 }
 .button {
   height: 49px;
+  width: 235px;
   background-color: rgb(55, 45, 97);
   border-radius: 5px;
   padding-left: 5px;

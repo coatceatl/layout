@@ -223,3 +223,18 @@ h3 .clients .heading-3 {
   align-items: center;
   justify-content: center;
 }
+/*Mobile App*/
+.container-wrap-mobapp {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(img/bg/mob-bg.png);
+}
+.container-mobapp {
+  max-width: 986px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  height: 1062px;
+}
+

@@ -256,12 +256,21 @@ html, body {
   line-height: 1.4;
   padding-top: 17px;
 }
+.mobapp-icon {
+  justify-content: center;
+}
 .mobapp-menu {
   color: rgb(255, 255, 254);
   font-family: 'Roboto Medium';
 }
-.mobapp-menu-lists {
-  list-style-type: none;
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(55, 45, 97);
+  color: rgb(72, 46, 182);
+  justify-content: center;
+  align-items: center;
 }
 /*Bodyguard*/
 .container-wrap-bodyguard {

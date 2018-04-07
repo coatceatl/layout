@@ -278,21 +278,60 @@ html, body {
   height: 790px;
   text-transform: uppercase;
 }
+.bodyguard-foto {
+  padding-left: 68px;
+}
+.bodyguard-arrow {
+  margin-left: 255px;
+  margin-right: 75px;
+  background-color: rgb(55, 45, 97);
+  height: 84px;
+}
+.left {
+  justify-content: center;
+  width: 84px;
+}
+.right {
+  justify-content: center;
+  width: 84px;
+}
 .bodyguard-title {
-  padding-top: 80px;
+  padding-top: 85px;
   padding-bottom: 80px;
+}
+.bodyguard-title .heading-2 {
+  padding-left: 153px;
+  font-weight: 700;
 }
 .bodyguard-content {
   color: rgb(255, 255, 254);
 }
 .bodyguard-content .heading-3 {
   font-family: 'Roboto Bold';
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 10px;
+  line-height: 1;
 }
 .bodyguard-content .heading-6 {
   font-family: 'Roboto Regular';
 }
 .bodyguard-content p {
   text-transform: none;
+  line-height: normal;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+.btn-order {
+  background-color: orange;
+  color: rgb(255, 255, 254);
+  font-family: 'Roboto Bold';
+  font-size: 16px;
+  margin-left: 170px;
+  border-radius: 60px;
+  text-align: center;
+  padding-top: 13px;
 }
 
 

@@ -251,4 +251,26 @@ html, body {
   line-height: 1.4;
   padding-top: 16px;
 }
+.mobapp-menu {
+  color: rgb(255, 255, 254);
+}
+.mobapp-menu-lists {
+  list-style-type: none;
+}
+/*Bodyguard*/
+.container-wrap-bodyguard {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(img/bg/bodyguard-bg.png);
+}
+.container-bodyguard {
+  max-width: 986px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  height: 790px;
+  text-transform: uppercase;
+}
+
 

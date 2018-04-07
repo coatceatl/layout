@@ -279,11 +279,20 @@ html, body {
   text-transform: uppercase;
 }
 .bodyguard-title {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
-.bodyguard-content .heading-3 {
+.bodyguard-content {
   color: rgb(255, 255, 254);
+}
+.bodyguard-content .heading-3 {
   font-family: 'Roboto Bold';
 }
+.bodyguard-content .heading-6 {
+  font-family: 'Roboto Regular';
+}
+.bodyguard-content p {
+  text-transform: none;
+}
+
 

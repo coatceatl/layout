@@ -18,6 +18,11 @@
   src: url('fonts/roboto/Roboto-Medium.ttf');
     font-weight: 500;
 }
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url('fonts/roboto/Roboto-Thin.ttf');
+    font-weight: 300;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -263,14 +268,23 @@ html, body {
   color: rgb(255, 255, 254);
   font-family: 'Roboto Medium';
 }
+.mobapp-menu-lists {
+  margin-bottom: 20px;
+}
 .circle {
-  width: 100px;
+  min-width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: rgb(55, 45, 97);
   color: rgb(72, 46, 182);
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto Thin';
+  font-size: 78px;
+}
+.mobapp-list {
+  align-items: center;
+  letter-spacing: 1.5px;
 }
 /*Bodyguard*/
 .container-wrap-bodyguard {

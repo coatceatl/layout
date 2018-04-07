@@ -269,7 +269,7 @@ html, body {
   font-family: 'Roboto Medium';
 }
 .mobapp-menu-lists {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .circle {
   min-width: 100px;
@@ -285,6 +285,18 @@ html, body {
 .mobapp-list {
   align-items: center;
   letter-spacing: 1.5px;
+}
+.btn-store {
+  background-color: rgb(72, 46, 182);
+  color: rgb(255, 255, 254);
+  font-family: 'Roboto Bold';
+  font-size: 16px;
+  border-radius: 60px;
+  text-align: center;
+  padding-top: 20px;
+  height: 63px;
+  width: 219px;
+  margin-right: 15px;
 }
 /*Bodyguard*/
 .container-wrap-bodyguard {

@@ -181,14 +181,14 @@ html, body {
   text-align: center;
   text-transform: uppercase;
 }
-h3 .clients .heading-3 {
+.clients-menu .heading-3 {
   font-size: 24px;
   font-family: 'Roboto Bold';
   font-weight: 700;
   color: rgb(255, 255, 254);
   line-height: 1.25;
   margin: 0;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 .col-left {
   margin-right: 15px;
@@ -234,7 +234,21 @@ h3 .clients .heading-3 {
   max-width: 986px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding-top: 0;
   height: 1062px;
+  text-transform: uppercase;
+}
+.mobapp-title {
+  padding-top: 115px;
+  padding-bottom: 80px;
+}
+.mobapp-title .heading-3 {
+  color: rgb(255, 255, 254);
+  padding-left: 68px;
+  font-family: 'Roboto Regular';
+  letter-spacing: unset;
+  font-size: 20px;
+  line-height: 1.4;
+  padding-top: 16px;
 }
 

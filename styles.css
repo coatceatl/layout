@@ -222,6 +222,7 @@ html, body {
   border-radius: 5px;
   display: inline-block;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 .double-btn {
   width: 489px;

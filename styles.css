@@ -453,6 +453,18 @@ html, body {
 .partners-content {
   align-items: center;
 }
+.partners-logo {
+  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+}
+.partners-reviews {
+  width: 70%;
+  justify-content: start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .partners-icon {
   width: 684px;
   height: 390px;

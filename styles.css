@@ -495,7 +495,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0;
-  height: 693px;
+  height: 600px;
   color: rgb(255, 255, 254);
 }
 .contacts-title .heading-2 {
@@ -538,15 +538,28 @@ html, body {
 .footer {
   margin-left: 190px;
   margin-right: 190px;
-  padding-left: 68px;
-  padding-right: 68px;
+  padding: 20px 68px;
 }
 .footer-content {
   padding-left: 80px;
+  width: 100%;
 }
 .footer-menu-lists {
   padding-top: 20px;
   list-style-type: none;
   font-size: 7px;
   font-family: 'Roboto Regular';
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-menu-list a {
+  color: rgb(114, 114, 116);
+}
+.footer-menu-1 {
+  text-transform: uppercase;
+}
+.footer-menu-2 {
+  color: rgb(114, 114, 116);
+  font-size: 8px;
 }

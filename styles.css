@@ -506,9 +506,11 @@ html, body {
 .contacts-social {
   justify-content: space-between;
   padding-left: 8px;
+  height: 341px;
+  width: 320px;
 }
 .contacts {
-  padding-left: 30px;
+  padding-left: 60px;
   height: 243px;
 }
 .contact-data {
@@ -524,5 +526,8 @@ html, body {
   white-space: pre;
   margin: 0;
   font-size: 13px;
+}
+.social-icons {
+  justify-content: space-between;
 }
 

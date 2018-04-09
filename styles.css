@@ -428,6 +428,9 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+.person-foto {
+  width: 455px;
+}
 /*Partners*/
 .container-wrap-partners {
   max-width: 1366px;

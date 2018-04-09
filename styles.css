@@ -323,6 +323,8 @@ html, body {
 }
 .bodyguard-foto {
   padding-left: 68px;
+  width: 420px;
+  height: 400px;
 }
 .bodyguard-arrow {
   margin-left: 255px;

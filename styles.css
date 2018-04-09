@@ -324,21 +324,27 @@ html, body {
 .bodyguard-foto {
   padding-left: 68px;
   width: 420px;
-  height: 400px;
+  height: 380px;
 }
-.bodyguard-arrow {
+.arrows {
   margin-left: 255px;
   margin-right: 75px;
   background-color: rgb(55, 45, 97);
   height: 84px;
 }
-.left {
+.arrow-left {
   justify-content: center;
-  width: 84px;
+  align-items: center;
+  width: 81px;
+  background-color: rgb(55, 45, 97);
+  height: 84px;
 }
-.right {
+.arrow-right {
   justify-content: center;
-  width: 84px;
+  align-items: center;
+  width: 81px;
+  background-color: rgb(55, 45, 97);
+  height: 84px;
 }
 .bodyguard-title {
   padding-top: 85px;

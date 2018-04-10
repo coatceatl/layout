@@ -405,6 +405,11 @@ html, body {
 .skills p {
   text-transform: uppercase;
 }
+.arrow-left,
+.arrow-right {
+  display: none;
+}
+
 /*Auto*/
 .container-wrap-auto {
   max-width: 1366px;
@@ -455,6 +460,12 @@ html, body {
 .auto-content .btn-order {
   margin: 0;
   height: 57px;
+}
+.auto-number {
+  text-align: right;
+}
+.auto-content {
+  padding-left: 0;
 }
 /*
 .auto-carousel .carousel-item {
@@ -659,7 +670,6 @@ html, body {
  }
  .header-title,
  .clients-title,
- .auto-title,
  .subtitle {
    padding: 0;
    text-align: center;
@@ -795,4 +805,45 @@ html, body {
  .col {
    text-align: center;
  }
+ .container-auto .heading-2 {
+   width: 100%;
+   padding-bottom: 10px;
+   line-height: 1.3;
+ }
+ .auto-content .heading-3 {
+   padding: 0;
+   font-size: 1.1rem;
+   font-weight: bold;
+   line-height: 1.57;
+   letter-spacing: unset;
+   text-align: center;
+ }
+ .auto-content {
+   padding: 0;
+   text-align: left;
+ }
+ .auto-content .auto-number {
+   text-align: right;
+ }
+ .auto-content .heading-4 {
+   padding: 0;
+   font-size: 0.9rem;
+   font-weight: bold;
+   line-height: 1.57;
+   letter-spacing: unset;
+ }
+ .auto-content .heading-4 {
+   font-weight: bold;
+ }
+ .container-auto .row {
+   justify-content: space-between;
+ }
+ .container-auto .col {
+   text-align: center;
+ }
+ .carousel-inner .auto-carousel .carousel-item img {
+   width: 260px;
+   height: 120px;
+ }
+
 

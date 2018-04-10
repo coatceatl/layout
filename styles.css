@@ -65,6 +65,14 @@ html, body {
   justify-content: space-between;
   width: 153px;
 }
+.nav-contact-lists {
+  list-style-type: none;
+}
+.text {
+  font-size: 11px;
+  line-height: 1.2;
+  text-align: center;
+}
 .logo {
   justify-content: center;
   padding-top: 17px;
@@ -78,9 +86,6 @@ html, body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
-}
-.nav-contact .d-inline-flex {
-  justify-content: flex-end;
 }
 .nav-contact .number {
   font-size: 16px;
@@ -117,7 +122,9 @@ html, body {
   line-height: 1.2;
   letter-spacing: 1px;
 }
-
+.nav-menu-list a.active {
+  color: rgb(55, 45, 97);
+}
 /*Header*/
 .header {
   height: 528px;
@@ -633,6 +640,9 @@ html, body {
    padding-left: 15px;
    padding-right: 15px;
  }
+ .container-header {
+   height: 500px;
+ }
  .nav-menu {
    width: 100%;
    justify-content: center;
@@ -641,7 +651,7 @@ html, body {
    padding: 0;
  }
  .nav-social-lists,
- .nav-contact p {
+ .nav-contact-lists {
    display: none;
  }
  .nav-menu-lists {
@@ -649,6 +659,7 @@ html, body {
  }
  .header-title,
  .clients-title,
+ .auto-title,
  .subtitle {
    padding: 0;
    text-align: center;
@@ -691,10 +702,15 @@ html, body {
  }
 }
 @media (max-width: 440px) {
+  .nav-contact {
+    padding-top: 0;
+    width: unset;
+  }
  .heading-3 {
    font-size: 1.2rem;
    font-weight: bold;
    line-height: 1.57;
+   letter-spacing: unset;
  }
  .heading-2 {
    font-size: 1.35rem;
@@ -706,6 +722,12 @@ html, body {
  }
  .heading-1 {
    font-size: 2.3rem;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+.logo img {
+   width: 70px;
+   height: 55px;
  }
  .p-content {
    font-size: 0.75rem;

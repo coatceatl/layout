@@ -27,6 +27,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #0e0d1b;
+  font-size: 16px;
 }
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -94,6 +95,7 @@ html, body {
   line-height: 1.2;
   margin: 0;
   width: 170px;
+  text-align: center;
 }
 .nav-menu-lists {
   padding: 0;
@@ -145,18 +147,21 @@ html, body {
   line-height: 3;
   letter-spacing: 2px;
 }
-.header-content p {
+.col-1-of-3,
+.col-2-of-3 {
+  width: 33%;
+}
+.p-content {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   color: rgb(255,255,254);
   line-height: 1.2;
-  padding-left: 306px;
+  padding: 0;
   margin-bottom: 0;
 }
-.header-content p .content-padding-1 {
-  padding-left: 323px;
+.shift {
+  padding-left: 16px;
 }
-
 /*Clients*/
 .container-wrap-clients {
   max-width: 1366px;
@@ -619,10 +624,39 @@ html, body {
    padding-left: 15px;
    padding-right: 15px;
  }
- .nav-social-lists {
+ .nav-menu {
+   width: 100%;
+   justify-content: center;
+ }
+ .nav-social-lists,
+ .nav-contact p {
    display: none;
  }
  .nav-menu-lists {
    display: none;
+ }
+ .header-title,
+ .subtitle {
+   padding: 0;
+   text-align: center;
+   justify-content: center;
+ }
+ .heading-1 {
+   font-size: 3.75rem;
+ }
+}
+@media (max-width: 365px) {
+ .heading-3 {
+   font-size: 1.2rem;
+ }
+ .heading-1 {
+   font-size: 2.7rem;
+ }
+ .col-1-of-3 {
+   width: 0;
+ }
+ .col-2-of-3 {
+   width: 100%;
+   text-align: center;
  }
 }

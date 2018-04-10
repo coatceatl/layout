@@ -10,8 +10,8 @@
   <body>
     <div class='container-wrap'>
       <div class='container-header'>
-        <div class='d-flex flex-row nav-menu'>
-          <div class='d-inline-flex nav-social'>
+        <div class='d-flex flex-row nav-menu' id='navigation'>
+          <div class='d-flex nav-social' >
             <ul class='nav-social-lists'>
               <li><a href='#'><img src='img/icon/icon-instagram.png' alt='Instagram'></a></li>
               <li><a href='#'><img src='img/icon/icon-vk.png' alt='vkontakte'></a></li>
@@ -19,7 +19,7 @@
               <li><a href='#'><img src='img/icon/icon-youtube.png' alt='YouTube'></a></li>
             </ul>
           </div>
-          <div class='d-inline-flex logo'>
+          <div class='d-flex logo'>
             <a href='#'>
               <img src='img/logo/logo-armada.png' alt='Armada'>
             </a>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <!-- Menu -->
-        <div class='d-flex flex-row nav-menu'>
+        <div class='d-flex flex-row nav-menu-1'>
           <ul class='nav-menu-lists'>
             <li class='nav-menu-list'><a class='active' href='#'>Главная</a></li>
             <li class='nav-menu-list'><a href='#'>Услуги</a></li>
@@ -41,6 +41,9 @@
             <li class='nav-menu-list'><a href='#'>Партнёры</a></li>
             <li class='nav-menu-list'><a href='#'>Контакты</a></li>
            </ul>
+        </div>
+        <div class='nav-button' id='nav-toggle'>
+          Open navigation
         </div>
         <!-- Header -->
         <div class='d-flex flex-column header'>
@@ -192,7 +195,7 @@
 
                 <div class='col'>
                   <div class='bodyguard-foto'>
-                    <div id='carouselBodyguard' class='carousel slide'>
+                    <div id='carouselBodyguard' class='carousel slide' data-ride='carousel'>
                       <div class='carousel-inner'>
                         <div class='carousel-item active'>
                           <img class='d-block w-60' src='img/foto/foto-guard.jpg' alt='foto'>
@@ -213,20 +216,17 @@
                     <a class='carousel-control-next' href='#carouselBodyguard' role='button' data-slide='next'>
                     </a>
                   </div>
-                    <div class='d-flex arrow-left'>
+                  <div class='d-flex arrow-left'>
                     <div data-target='#carouselBodyguard' data-slide='prev' class='active'>
                       <img src='img/icon/arrow-left.png'>
                     </div>
-                    </div>
-                    <div class='d-flex arrow-right'>
-                    <div data-target='#carouselBodyguard' data-slide-to='next'>
+                  </div>
+                  <div class='d-flex arrow-right'>
+                    <div data-target='#carouselBodyguard' data-slide='next'>
                       <img src='img/icon/arrow-right.png'>
                     </div>
                   </div>
                 </div>
-
-
-
 
                 <div class='col'>
                   <div class='bodyguard-content'>
@@ -270,7 +270,7 @@
           </div>
 
           <div id='carouselAuto' class='carousel slide'>
-            <div class='carousel-inner'>
+            <div class='carousel-inner auto-carousel'>
               <div class='carousel-item active'>
                 <img class='d-block w-60' src='img/foto/auto-foto.png' alt='First auto'>
               </div>
@@ -437,7 +437,7 @@
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src='index.js'></script>
   </body>
 </html>

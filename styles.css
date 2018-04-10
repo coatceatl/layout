@@ -442,6 +442,12 @@ html, body {
   margin: 0;
   height: 57px;
 }
+/*
+.auto-carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+*/
 /*Person*/
 .container-wrap-person {
   max-width: 1366px;
@@ -606,4 +612,17 @@ html, body {
 .footer-menu-2 {
   color: rgb(114, 114, 116);
   font-size: 8px;
+}
+@media (max-width: 968px) {
+ .container-header {
+   width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+ .nav-social-lists {
+   display: none;
+ }
+ .nav-menu-lists {
+   display: none;
+ }
 }

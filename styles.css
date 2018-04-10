@@ -731,4 +731,11 @@ html, body {
  .mobapp-menu-lists {
    margin-bottom: 20px;
  }
+ .btn-store {
+   width: 219px;
+ }
+ .carousel-inner img {
+   width: 216px;
+   height: 240px;
+ }
 

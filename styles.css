@@ -708,8 +708,27 @@ html, body {
  .p-content {
    font-size: 0.75rem;
  }
+ .mobapp-title {
+   padding-bottom: 30px;
+ }
  .mobapp-title .heading-3 {
    font-size: 0.75rem;
    padding: 0;
+ }
+ .mobapp-list {
+  font-size: 0.7rem;
+  line-height: 1.2;
+ }
+ .mobapp-icon img {
+  width: 170px;
+  height: 350px;
+ }
+ .circle {
+  min-width: 72px;
+  height: 72px;
+  font-size: 4rem;
+ }
+ .mobapp-menu-lists {
+   margin-bottom: 20px;
  }
 

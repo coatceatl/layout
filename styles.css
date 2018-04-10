@@ -357,7 +357,6 @@ html, body {
 }
 .bodyguard-title .heading-2 {
   padding-left: 153px;
-  font-weight: 500;
 }
 .bodyguard-content {
   color: rgb(255, 255, 254);
@@ -395,6 +394,9 @@ html, body {
 }
 .skills {
   padding-top: 10px;
+}
+.skills p {
+  text-transform: uppercase;
 }
 /*Auto*/
 .container-wrap-auto {
@@ -737,5 +739,25 @@ html, body {
  .carousel-inner img {
    width: 216px;
    height: 240px;
+ }
+ .bodyguard-title .heading-2 {
+   padding-left: 0;
+ }
+ .bodyguard-title {
+   padding-bottom: 20px;
+ }
+ .bodyguard-content .heading-3 {
+   font-size: 1.1rem;
+ }
+ .bodyguard-content p {
+   font-size: 0.75rem;
+   text-align: center;
+ }
+ .bodyguard-foto {
+   height: auto;
+ }
+ .arrow-left,
+ .arrow-right {
+   display: none;
  }
 

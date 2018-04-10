@@ -760,4 +760,17 @@ html, body {
  .arrow-right {
    display: none;
  }
+ .btn-order {
+   width: 230px;
+   margin: 0;
+ }
+ .skills {
+   align-items: center;
+ }
+ .skills .row {
+   width: 100%;
+ }
+ .col {
+   text-align: center;
+ }
 

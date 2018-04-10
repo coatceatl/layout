@@ -665,8 +665,8 @@ html, body {
  .clients-icon {
    width: 100%;
    height: 267px;
-   margin-top: 30px;
-   margin-bottom: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
  }
 }
 @media (max-width: 520px) {
@@ -695,15 +695,21 @@ html, body {
    line-height: 1.57;
  }
  .heading-2 {
-   font-size: 1.4rem;
+   font-size: 1.35rem;
    font-weight: bold;
    line-height: 1.5;
    letter-spacing:3px;
+   margin-top: 35px;
+   margin-bottom: 10px;
  }
  .heading-1 {
    font-size: 2.3rem;
  }
  .p-content {
    font-size: 0.75rem;
+ }
+ .mobapp-title .heading-3 {
+   font-size: 0.75rem;
+   padding: 0;
  }
 

@@ -665,8 +665,19 @@ html, body {
  .nav-contact-lists {
    display: none;
  }
+ /*
+ .nav-menu-1 {
+   flex-direction: column;
+   height: 80%;
+ }
+ */
  .nav-menu-lists {
    display: none;
+   background-color: green;
+   text-align: center;
+ }
+ .nav-menu-list {
+   font-size: 1rem;
  }
  .header-title,
  .clients-title,
@@ -874,7 +885,19 @@ html, body {
    margin-bottom: 10px;
    padding-left: 0;
  }
+ .nav-button {
+   display: block;
+   position: absolute;
+   top: 20px;
+   left: 0;
+   color: white;
+ }
 }
+/*
+.nav-button {
+  display: none;
+}
+*/
 
 
 

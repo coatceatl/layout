@@ -673,8 +673,33 @@ html, body {
  */
  .nav-menu-lists {
    display: none;
+ }
+  .nav-menu-mobile .logo a {
+   display: none;
+ }
+ .nav-menu-mobile .nav-menu-lists{
+   display: block;
    background-color: green;
    text-align: center;
+   height: 100%;
+ }
+ .nav-menu-mobile .nav-social-lists {
+   display: block;
+   position: fixed;
+   bottom: 0;
+   top: 330px;
+   background-color: green;
+ }
+ .nav-menu-mobile .nav-contact {
+   width: 100%;
+   padding-top: 30px;
+   background-color: green;
+ }
+ .nav-menu-mobile .nav-contact-lists {
+   display: block;
+   position: fixed;
+   top: 30px;
+   right: 15px;
  }
  .nav-menu-list {
    font-size: 1rem;
@@ -734,7 +759,6 @@ html, body {
 }
 @media (max-width: 440px) {
   .nav-contact {
-    padding-top: 0;
     width: unset;
   }
  .heading-3 {

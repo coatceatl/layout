@@ -3,7 +3,7 @@ $(document).ready(function() {
     e.preventDefault();
     $('#navigation').addClass('nav-menu-mobile');
     $('#menu').addClass('nav-menu-mobile');
-/*    $('#contact').addClass('nav-menu-mobile');*/
+    $('#header').addClass('nav-menu-mobile');
 
   });
 });

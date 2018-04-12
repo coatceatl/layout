@@ -95,16 +95,10 @@ html, body {
   line-height: 1.2;
   white-space: pre;
 }
-.nav-contact p {
-  font-size: 11px;
-  line-height: 1.2;
-  margin: 0;
-  width: 170px;
-  text-align: center;
-}
 .nav-menu-lists {
   padding: 0;
   padding-top: 16px;
+  padding-bottom: 80px;
   width: 1176px;
   list-style-type: none;
   display: flex;
@@ -124,6 +118,9 @@ html, body {
 }
 .nav-menu-list a.active {
   color: rgb(55, 45, 97);
+}
+.nav-button {
+  display: none;
 }
 /*Header*/
 .header {
@@ -467,12 +464,6 @@ html, body {
 .auto-content {
   padding-left: 0;
 }
-/*
-.auto-carousel .carousel-item {
-  display: flex;
-  justify-content: center;
-}
-*/
 /*Person*/
 .container-wrap-person {
   max-width: 1366px;
@@ -665,12 +656,6 @@ html, body {
  .nav-contact-lists {
    display: none;
  }
- /*
- .nav-menu-1 {
-   flex-direction: column;
-   height: 80%;
- }
- */
  .nav-menu-lists {
    display: none;
  }
@@ -683,12 +668,15 @@ html, body {
    text-align: center;
    height: 100%;
  }
- .nav-menu-mobile .nav-social-lists {
-   display: block;
+ .nav-menu-mobile .nav-social .nav-social-lists {
+   display: flex;
+   justify-content: space-around;
    position: fixed;
-   bottom: 0;
    top: 330px;
    background-color: green;
+   width: 383px;
+   padding-left: 15%;
+   padding-right: 15%;
  }
  .nav-menu-mobile .nav-contact {
    width: 100%;
@@ -755,6 +743,21 @@ html, body {
  .col-2-of-3 {
    width: 100%;
    text-align: center;
+ }
+  .nav-button {
+   display: block;
+   position: absolute;
+   top: 20px;
+   left: 15px;
+   color: white;
+ }
+ .nav-button:hover {
+   cursor: pointer;
+ }
+.nav-button .line {
+   width: 50px;
+   height: 10px;
+   color: white;
  }
 }
 @media (max-width: 440px) {
@@ -909,20 +912,7 @@ html, body {
    margin-bottom: 10px;
    padding-left: 0;
  }
- .nav-button {
-   display: block;
-   position: absolute;
-   top: 20px;
-   left: 0;
-   color: white;
- }
 }
-/*
-.nav-button {
-  display: none;
-}
-*/
-
 
 
 

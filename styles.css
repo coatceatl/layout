@@ -670,15 +670,16 @@ html, body {
    background-color: #0e0d1b;
    text-align: center;
    height: 100%;
-   padding-bottom: 280px;
+   /*
+   padding-bottom: 280px;*/
  }
  .nav-menu-mobile .nav-menu-lists li {
    padding: 15px;
  }
- .nav-menu-mobile .nav-social .nav-social-lists {
+ .nav-menu-mobile .nav-social-lists {
    display: -webkit-inline-box;
-   position: fixed;
-   top: 330px;
+   position: relative;
+   top: 400px;
    background-color: #0e0d1b;
    width: auto;
    padding-left: 15%;
@@ -737,6 +738,50 @@ html, body {
    top: -50px;
    position: relative;
  }
+ .hamburger {
+  width: 20px;
+  height: 21px;
+  display: flex;
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+ }
+ .hamburger span,
+ .hamburger:before,
+ .hamburger:after {
+  display: block;
+  height: 3px;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.hamburger:before,
+.hamburger:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  transform-origin: 50% 50%;
+}
+
+.hamburger:before {
+  top: calc(100% - 3px);
+}
+
+.hamburger.active span {
+  opacity: 0;
+}
+
+.hamburger.active:after {
+  transform: rotate(-45deg);
+  top: 9px;
+}
+
+.hamburger.active:before {
+  transform: rotate(45deg);
+  top: 9px;
+}
 }
 @media (max-width: 520px) {
  .heading-3 {
@@ -766,13 +811,14 @@ html, body {
  .nav-button:hover {
    cursor: pointer;
  }
- .hamburger .line {
+/* .hamburger .line {
    width: 30px;
    height: 5px;
    background-color: white;
    display: block;
    margin: 5px;
  }
+ */
 }
 @media (max-width: 440px) {
   .nav-contact {

@@ -494,7 +494,6 @@ html, body {
 }
 .person-foto {
   width: 430px;
-  padding-left:90px;
 }
 .person-text {
   display: block;
@@ -503,19 +502,37 @@ html, body {
   left: 0;
   right: 115px;
   height: 125px;
-  padding-left: 34px;
+  padding-left: 25px;
+  padding-top: 30px;
   background-color: rgb(55, 45, 97);
   color: rgb(255, 255, 254);
   font-family: 'Roboto Regular';
 }
 .person-text .heading-3 {
-  font-weight: bold;
+  font-family: 'Bebas Neue';
+  font-size: 2.5rem;
+  line-height: 0.6;
+  text-align: center;
+}
+.person-text .heading-6 {
+  font-family: 'Roboto Regular';
+  font-size: 1.1rem;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+.person-foto img {
+  padding-left: 100px;
 }
 .shape {
+  display: block;
+  position: absolute;
+  bottom: 25px;
   background-color: rgb(55, 45, 97);
   height: 20px;
-  width: 440px;
-  border-radius: 5px;
+  width: 480px;
+  border-radius: 0 5px 5px 0;
 }
 /*Partners*/
 .container-wrap-partners {

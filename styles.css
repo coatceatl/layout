@@ -499,7 +499,23 @@ html, body {
 .person-text {
   display: block;
   position: absolute;
-  bottom: 15px;
+  bottom: 45px;
+  left: 0;
+  right: 115px;
+  height: 125px;
+  padding-left: 34px;
+  background-color: rgb(55, 45, 97);
+  color: rgb(255, 255, 254);
+  font-family: 'Roboto Regular';
+}
+.person-text .heading-3 {
+  font-weight: bold;
+}
+.shape {
+  background-color: rgb(55, 45, 97);
+  height: 20px;
+  width: 440px;
+  border-radius: 5px;
 }
 /*Partners*/
 .container-wrap-partners {

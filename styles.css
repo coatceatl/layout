@@ -38,6 +38,31 @@ html, body {
   margin: 0;
   padding: 0;
 }
+/*Aside*/
+.left-slidebar {
+  display: block;
+  float: left;
+  position: relative;
+  color: rgb(255, 255, 254);
+  top: 200px;
+  margin-left: 30px;
+}
+.slidebar-numbers {
+  text-align: right;
+}
+.left-slidebar span.active {
+  color: rgb(55, 45, 97);
+  font-size: 1.7rem;
+  line-height: 2.4;
+}
+.ellips-lists {
+  list-style-type: none;
+  text-align: center;
+}
+.ellips-lists li {
+  padding-bottom: 10px;
+}
+/*Navigation*/
 .container-wrap {
   max-width: 1366px;
   margin-left: auto;
@@ -466,6 +491,9 @@ html, body {
 }
 img.d-block.w-60 {
   margin: auto;
+}
+.special {
+  font-weight: bold;
 }
 /*Person*/
 .container-wrap-person {

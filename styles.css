@@ -496,6 +496,11 @@ html, body {
   width: 430px;
   padding-left:90px;
 }
+.person-text {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+}
 /*Partners*/
 .container-wrap-partners {
   max-width: 1366px;
@@ -811,17 +816,6 @@ html, body {
    left: 15px;
    color: white;
  }
-/* .nav-button:hover {
-   cursor: pointer;
- }
- .hamburger .line {
-   width: 30px;
-   height: 5px;
-   background-color: white;
-   display: block;
-   margin: 5px;
- }
- */
 }
 @media (max-width: 440px) {
   .nav-contact {

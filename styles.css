@@ -464,6 +464,9 @@ html, body {
 .auto-content {
   padding-left: 0;
 }
+img.d-block.w-60 {
+  margin: auto;
+}
 /*Person*/
 .container-wrap-person {
   max-width: 1366px;

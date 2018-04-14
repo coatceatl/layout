@@ -782,6 +782,9 @@ html, body {
   transform: rotate(45deg);
   top: 9px;
 }
+ button:focus {
+   outline: none;
+ }
 }
 @media (max-width: 520px) {
  .heading-3 {
@@ -808,10 +811,10 @@ html, body {
    left: 15px;
    color: white;
  }
- .nav-button:hover {
+/* .nav-button:hover {
    cursor: pointer;
  }
-/* .hamburger .line {
+ .hamburger .line {
    width: 30px;
    height: 5px;
    background-color: white;

@@ -748,14 +748,18 @@ img.d-block.w-60 {
  .nav-menu-mobile .nav-menu-lists li {
    padding: 15px;
  }
+ .nav-menu-mobile .nav-social {
+   z-index: 1000;
+   width: 100%;
+   margin-top: 100px;
+ }
  .nav-menu-mobile .nav-social-lists {
    display: -webkit-inline-box;
    position: relative;
-   top: 400px;
+   top: 420px;
+   text-align: -webkit-center;
    background-color: #0e0d1b;
    width: auto;
-   padding-left: 15%;
-   padding-right: 15%;
  }
  .nav-menu-mobile .nav-contact {
    width: 100%;
